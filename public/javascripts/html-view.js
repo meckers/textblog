@@ -30,10 +30,12 @@ HtmlView = Class.extend({
     },
 
     isVisible: function() {
-        return this.element.css('display') !== 'none';
+        //return this.element.css('display') !== 'none';
+        return $(this.element).is(':visible');
     },
 
     update: function() {
-        this.element.html(this.html);
+        console.log($(this.element).find('.blog'));
+        $(this.element).find('.post').html(this.html);
     }
 });

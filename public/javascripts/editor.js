@@ -5,7 +5,7 @@ Editor = Class.extend({
 
     init: function(element) {
         this.element = element;
-        this.htmlView = new HtmlView($("#html-view"));
+        this.htmlView = new HtmlView($("#blog"));
         this.bindEvents();
     },
 

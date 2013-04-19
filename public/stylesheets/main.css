@@ -1,0 +1,33 @@
+body {
+    font-family: verdana, arial, helvetica;
+    margin: 0px;
+}
+
+.welcome-panel {
+    margin: 0 auto;
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #ef90ef;
+}
+
+#editor, #html-view {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     margin: 0px;
+     padding: 20px;
+}
+
+#editor {
+    background-color: #EFEFEF;
+    color: black;
+    /*font-family: Georgia;*/
+}
+
+#html-view {
+    background-color: #50503F;
+    color: white;
+    display: none;
+    /*font-family: Georgia;*/
+}

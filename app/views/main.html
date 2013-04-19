@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>#{get 'title' /}</title>
+        <meta charset="${_response_encoding}">
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+    </head>
+    <body>
+        #{doLayout /}
+        #{setStyles category:'common' /}
+        <script src="http://code.jquery.com/jquery.js"></script>
+        #{setScripts category:'libs' /}
+        #{setScripts category:'common' /}
+    </body>
+</html>
